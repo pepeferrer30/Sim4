@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package simulacro.pkg4;
+
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -12,11 +8,8 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author nacho
- */
-public class CiudadModel extends DBUtil1{
+
+public class Model extends DBUtil1{
     
      public ArrayList<Ciudad> MostrarTodo(String consulta) {
         ArrayList<Ciudad> alma = new ArrayList();
